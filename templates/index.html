@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Spam Detection</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<div class="form-container">
+    <form method="POST" class="form">
+        <label for="text">Enter Your Text Here </label>
+        <input type="text" name="text" id="text">
+        <button type="submit" class="submit">Check</button>
+        <button type="reset" class="reset">Clear All</button>
+        <div class="result">Result : Spam Detected</div>
+    </form>
+</div>
 </body>
 </html>
