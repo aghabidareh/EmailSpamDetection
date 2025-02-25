@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="tensorflow_venv" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="D:\applications\anaconda" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="tensorflow_venv" project-jdk-type="Python SDK" />
 </project>
