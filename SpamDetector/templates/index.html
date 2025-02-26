@@ -11,11 +11,14 @@
 <body>
 <div class="form-container">
     <form method="POST" class="form">
+        {% csrf_token %}
         <label for="text">Enter Your Text Here </label>
         <input type="text" name="text" id="text">
         <button type="submit" class="submit">Check</button>
         <button type="reset" class="reset">Clear All</button>
-        <div class="result">Result : Spam Detected</div>
+        {% if result %}
+        	<div class="result">Result : {{ result }}</div>
+        {% endif %}
     </form>
 </div>
 </body>
