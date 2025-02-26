@@ -173,3 +173,4 @@ tokenizer.h5
 model.h5
 params.json
 .idea
+SpamDetector/SpamDetector/local_setting.py
