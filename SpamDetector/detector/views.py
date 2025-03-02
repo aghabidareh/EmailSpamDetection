@@ -7,6 +7,6 @@ def index(request):
     if request.method == "POST":
         text = request.POST.get("text")
         result = predictor(text)
-        context = {'result' : result}
-        return render(request, 'index.html' , context)
+        context = {'result': result}
+        return render(request, 'index.html', context)
     return render(request, 'index.html')
