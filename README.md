@@ -94,7 +94,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 For questions, suggestions, or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
+- **Email**: aghabidareh@gmail.com
 - **GitHub Issues**: [Open an Issue](https://github.com/aghabidareh/EmailSpamDetection/issues)
 
 ---
